@@ -488,6 +488,7 @@
    "round": null,
    "mode": "room",
    "size_used_m": null,
+   "category": "room",
    "accepted": false,
    "match_score": 0.74,
    "parts": [
@@ -523,6 +524,7 @@
     "depth": 0.36,
     "height": 0.3999
    },
+   "category": "container",
    "accepted": true,
    "match_score": 0.84,
    "parts": [
@@ -584,6 +586,7 @@
     "depth": 0.72,
     "height": 0.964
    },
+   "category": "cabinet",
    "accepted": true,
    "match_score": 0.9,
    "parts": [
@@ -711,6 +714,7 @@
     "depth": 0.72,
     "height": 0.96
    },
+   "category": "cabinetry",
    "accepted": false,
    "match_score": 0.74,
    "parts": [
@@ -895,6 +899,7 @@
     "depth": 0.25,
     "height": 0.1649
    },
+   "category": "container",
    "accepted": true,
    "match_score": 0.86,
    "parts": [
@@ -969,6 +974,7 @@
     "depth": 0.6,
     "height": 0.85
    },
+   "category": "appliance",
    "accepted": true,
    "match_score": 0.88,
    "parts": [
@@ -1157,6 +1163,7 @@
     "depth": 0.57,
     "height": 0.9
    },
+   "category": "seating",
    "accepted": true,
    "match_score": 0.89,
    "parts": [
@@ -1737,6 +1744,7 @@
     "depth": 0.08191,
     "height": 0.06063
    },
+   "category": "manipulation_object",
    "accepted": true,
    "match_score": 0.84,
    "parts": [
@@ -1754,6 +1762,7 @@
     "depth": 0.095,
     "height": 0.06
    },
+   "category": "manipulation_prop",
    "accepted": true,
    "match_score": 0.88,
    "parts": [
@@ -1804,6 +1813,7 @@
     "depth": 0.75,
     "height": 0.9205
    },
+   "category": "appliance",
    "accepted": true,
    "match_score": 0.9,
    "parts": [
@@ -2218,6 +2228,7 @@
     "depth": 0.27852,
     "height": 0.39819
    },
+   "category": "plumbing_fixture",
    "accepted": false,
    "match_score": 0.8,
    "parts": [
@@ -2570,6 +2581,7 @@
     "depth": 0.255,
     "height": 0.008
    },
+   "category": "building_fixture",
    "accepted": true,
    "match_score": 0.85,
    "parts": [
@@ -2659,6 +2671,7 @@
     "depth": 1.2646,
     "height": 0.009
    },
+   "category": "cable",
    "accepted": true,
    "match_score": 0.84,
    "parts": [
@@ -3438,6 +3451,7 @@
     "depth": 0.09,
     "height": 0.055
    },
+   "category": "electrical_equipment",
    "accepted": true,
    "match_score": 0.88,
    "parts": [
@@ -3457,6 +3471,7 @@
     "depth": 0.16,
     "height": 0.39
    },
+   "category": "wall_cabinet",
    "accepted": true,
    "match_score": 0.87,
    "parts": [
@@ -3559,6 +3574,7 @@
     "depth": 0.22,
     "height": 0.05
    },
+   "category": "floor_fixture",
    "accepted": true,
    "match_score": 0.9,
    "parts": [
@@ -3578,6 +3594,7 @@
     "depth": 0.85,
     "height": 0.935
    },
+   "category": "furniture",
    "accepted": true,
    "match_score": 0.86,
    "parts": [
@@ -3620,14 +3637,15 @@
   },
   {
    "name": "mobile_dual_arm_robot",
-   "round": 4,
+   "round": null,
    "mode": "session",
    "size_used_m": {
     "width": 0.694,
     "depth": 0.58,
     "height": 1.435
    },
-   "accepted": true,
+   "category": "robot",
+   "accepted": false,
    "match_score": 0.88,
    "parts": [
     "right_outer_finger",
@@ -4187,6 +4205,7 @@
     "depth": 0.31,
     "height": 0.43
    },
+   "category": "appliance",
    "accepted": true,
    "match_score": 0.89,
    "parts": [
@@ -4349,6 +4368,7 @@
     "depth": 0.6055,
     "height": 1.0248
    },
+   "category": "seating",
    "accepted": true,
    "match_score": 0.85,
    "parts": [
@@ -4854,6 +4874,7 @@
     "depth": 0.8,
     "height": 1.84
    },
+   "category": "appliance",
    "accepted": true,
    "match_score": 0.92,
    "parts": [
@@ -5299,6 +5320,7 @@
     "depth": 0.375,
     "height": 0.22
    },
+   "category": "plumbing_fixture",
    "accepted": true,
    "match_score": 0.86,
    "parts": [
@@ -5320,6 +5342,7 @@
     "depth": 0.6,
     "height": 0.85
    },
+   "category": "base_cabinet",
    "accepted": true,
    "match_score": 0.85,
    "parts": [
@@ -5463,6 +5486,7 @@
     "depth": 1.32,
     "height": 0.038
    },
+   "category": "countertop",
    "accepted": true,
    "match_score": 0.87,
    "parts": [
@@ -5482,6 +5506,7 @@
     "depth": 0.6,
     "height": 0.87
    },
+   "category": "cabinet",
    "accepted": true,
    "match_score": 0.86,
    "parts": [
@@ -5585,6 +5610,7 @@
     "depth": 0.6,
     "height": 0.87
    },
+   "category": "cabinet",
    "accepted": false,
    "match_score": 0.8,
    "parts": [
@@ -5710,6 +5736,7 @@
     "depth": 0.025,
     "height": 0.18
    },
+   "category": "cabinet_trim",
    "accepted": true,
    "match_score": 0.87,
    "parts": [
@@ -5729,6 +5756,7 @@
     "depth": 0.028,
     "height": 0.175
    },
+   "category": "cabinet_trim",
    "accepted": true,
    "match_score": 0.88,
    "parts": [
@@ -5748,6 +5776,7 @@
     "depth": 0.6,
     "height": 0.87
    },
+   "category": "base_cabinet",
    "accepted": true,
    "match_score": 0.87,
    "parts": [
@@ -5873,6 +5902,7 @@
     "depth": 0.74,
     "height": 0.93
    },
+   "category": "base_cabinet",
    "accepted": false,
    "match_score": 0.79,
    "parts": [
@@ -6084,6 +6114,7 @@
     "depth": 0.216,
     "height": 0.05
    },
+   "category": "manipulation_object",
    "accepted": true,
    "match_score": 0.86,
    "parts": [
@@ -6110,6 +6141,7 @@
     "depth": 0.27,
     "height": 0.166
    },
+   "category": "container",
    "accepted": true,
    "match_score": 0.86,
    "parts": [
@@ -6173,6 +6205,7 @@
     "depth": 0.393,
     "height": 0.83
    },
+   "category": "cabinetry",
    "accepted": true,
    "match_score": 0.86,
    "parts": [
@@ -6311,6 +6344,7 @@
     "depth": 0.34,
     "height": 0.71
    },
+   "category": "cabinet",
    "accepted": true,
    "match_score": 0.91,
    "parts": [
@@ -6587,6 +6621,7 @@
     "depth": 0.21,
     "height": 0.88
    },
+   "category": "cabinet",
    "accepted": true,
    "match_score": 0.86,
    "parts": [
@@ -6746,6 +6781,7 @@
     "depth": 0.5795,
     "height": 0.044
    },
+   "category": "electrical",
    "accepted": false,
    "match_score": 0.84,
    "parts": [
@@ -6781,6 +6817,7 @@
     "depth": 0.1,
     "height": 0.056
    },
+   "category": "manipulation_prop",
    "accepted": true,
    "match_score": 0.88,
    "parts": [
@@ -6800,6 +6837,7 @@
     "depth": 0.17,
     "height": 2.34
    },
+   "category": "door",
    "accepted": true,
    "match_score": 0.94,
    "parts": [
