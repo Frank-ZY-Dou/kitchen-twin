@@ -255,13 +255,15 @@ if (!window.THREE || !THREE.GLTFLoader || !THREE.OrbitControls) { document.getEl
   const loadingEl = document.getElementById('loading');
   fetch(GLB_SRC).then(res => {
     if (!res.ok) throw new Error(res.status + ' ' + res.statusText);
+    // content-length is the COMPRESSED size when the host gzips the GLB (GitHub Pages does), so it is
+    // only a usable total while the bytes we have read stay below it
     const total = Number(res.headers.get('content-length') || 0);
-    if (!res.body || !total) return res.arrayBuffer();
+    if (!res.body) return res.arrayBuffer();
     const reader = res.body.getReader(); const chunks = []; let got = 0;
     const pump = () => reader.read().then(({done, value}) => {
       if (done) { const all = new Uint8Array(got); let at = 0; chunks.forEach(c => { all.set(c, at); at += c.length; }); return all.buffer; }
       chunks.push(value); got += value.length;
-      loadingEl.textContent = 'loading scene… ' + (got / 1e6).toFixed(1) + ' / ' + (total / 1e6).toFixed(1) + ' MB';
+      loadingEl.textContent = 'loading scene… ' + (got / 1e6).toFixed(1) + (got <= total ? ' / ' + (total / 1e6).toFixed(1) : '') + ' MB';
       return pump();
     });
     return pump();
