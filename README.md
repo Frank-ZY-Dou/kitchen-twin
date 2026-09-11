@@ -4,10 +4,14 @@ A room filmed once with a phone, reconstructed into named 3D assets and shown in
 32 modelled assets with 138 working joints (doors, drawers), a modelled room shell, and a
 Compare wipe against the raw metric scan.
 
-Built by [video2sim](https://github.com/Frank-ZY-Dou) — a phone video goes through a metric scan
-(ViPE), instance segmentation and per-asset measurement; GPT-6 Astra then authors every asset in
-a small Blender modelling language and an independent verifier session judges each model against
-the video frames and the scan before it is accepted.
+Built by video2sim: a phone video goes through a metric scan (ViPE), instance segmentation and
+per-asset measurement; GPT-6 Astra then authors every asset in a small Blender modelling language
+and an independent verifier session judges each model against the video frames and the scan before
+it is accepted.
+
+**This repository is published output, not source.** It holds the generated page, the scene and its
+metadata so the reconstruction can be looked at; the pipeline that produced it is maintained in a
+private repository and is not published here.
 
 ## The files
 
