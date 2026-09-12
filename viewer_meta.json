@@ -3637,151 +3637,83 @@
   },
   {
    "name": "mobile_dual_arm_robot",
-   "round": null,
+   "round": 4,
    "mode": "session",
    "size_used_m": {
-    "width": 0.658,
-    "depth": 0.6905,
-    "height": 1.4405
+    "width": 0.694,
+    "depth": 0.58,
+    "height": 1.435
    },
    "category": "robot",
-   "accepted": false,
-   "match_score": 0.74,
+   "accepted": true,
+   "match_score": 0.88,
    "parts": [
-    "left_finger_outer",
-    "left_finger_outer",
-    "left_finger_outer",
-    "left_finger_inner",
-    "left_finger_inner",
-    "left_finger_inner",
-    "left_gripper_palm",
-    "left_gripper_palm",
-    "link_left_arm_6",
-    "link_left_arm_6",
-    "link_left_arm_5",
-    "link_left_arm_5",
-    "link_left_arm_4",
-    "link_left_arm_4",
-    "link_left_arm_3",
-    "link_left_arm_3",
-    "link_left_arm_3",
-    "link_left_arm_3",
-    "link_left_arm_2",
-    "link_left_arm_2",
-    "link_left_arm_2",
-    "link_left_arm_2",
-    "link_left_arm_2",
-    "link_left_arm_1",
-    "link_left_arm_0",
-    "right_finger_inner",
-    "right_finger_inner",
-    "right_finger_inner",
-    "right_finger_outer",
-    "right_finger_outer",
-    "right_finger_outer",
+    "right_outer_finger",
+    "right_outer_finger",
+    "right_outer_finger",
+    "right_inner_finger",
+    "right_inner_finger",
+    "right_inner_finger",
     "right_gripper_palm",
-    "right_gripper_palm",
-    "link_right_arm_6",
-    "link_right_arm_6",
-    "link_right_arm_5",
-    "link_right_arm_5",
-    "link_right_arm_4",
-    "link_right_arm_4",
-    "link_right_arm_3",
-    "link_right_arm_3",
-    "link_right_arm_3",
-    "link_right_arm_3",
-    "link_right_arm_2",
-    "link_right_arm_2",
-    "link_right_arm_2",
-    "link_right_arm_2",
-    "link_right_arm_2",
-    "link_right_arm_1",
-    "link_right_arm_0",
-    "top_mount_and_antennas",
-    "top_mount_and_antennas",
-    "lower_front_cover",
-    "lower_front_cover",
-    "upper_chest_cover",
-    "upper_chest_cover",
-    "link_torso_5",
-    "link_torso_5",
-    "link_torso_4",
-    "link_torso_4",
-    "link_torso_3",
-    "link_torso_3",
-    "link_torso_2",
-    "link_torso_2",
-    "link_torso_2",
-    "link_torso_1",
-    "link_torso_1",
-    "link_torso_1",
-    "link_torso_1",
-    "link_torso_0",
-    "link_torso_0",
-    "left_rear_support_wheel",
-    "left_rear_support_wheel",
-    "right_rear_support_wheel",
-    "right_rear_support_wheel",
-    "left_wheel",
-    "left_wheel",
-    "left_wheel",
-    "left_wheel",
-    "right_wheel",
-    "right_wheel",
-    "right_wheel",
-    "right_wheel",
-    "base",
-    "base",
-    "base",
-    "base"
+    "right_wrist",
+    "right_wrist",
+    "right_forearm",
+    "right_forearm",
+    "right_forearm",
+    "right_elbow",
+    "right_elbow",
+    "right_elbow",
+    "right_upper_arm",
+    "right_upper_arm",
+    "right_upper_arm",
+    "right_upper_arm",
+    "right_shoulder",
+    "left_outer_finger",
+    "left_outer_finger",
+    "left_outer_finger",
+    "left_inner_finger",
+    "left_inner_finger",
+    "left_inner_finger",
+    "left_gripper_palm",
+    "left_wrist",
+    "left_wrist",
+    "left_forearm",
+    "left_forearm",
+    "left_forearm",
+    "left_elbow",
+    "left_elbow",
+    "left_elbow",
+    "left_upper_arm",
+    "left_upper_arm",
+    "left_upper_arm",
+    "left_upper_arm",
+    "left_shoulder",
+    "top_sensor_and_antennas",
+    "top_sensor_and_antennas",
+    "chest_identification_mark",
+    "chest_lower_seam",
+    "lower_chest_panel",
+    "lower_panel_seal",
+    "faceted_chest_shell",
+    "black_torso",
+    "waist_platform",
+    "waist_pitch_motor",
+    "right_drive_wheel",
+    "right_drive_wheel",
+    "left_drive_wheel",
+    "left_drive_wheel",
+    "mobile_chassis_and_support",
+    "mobile_chassis_and_support",
+    "mobile_chassis_and_support"
    ],
    "joints": [
     {
-     "child": "right_wheel",
+     "child": "left_drive_wheel",
      "type": "revolute",
      "pivot": [
-      -0.265,
-      -0.215,
-      0.1
-     ],
-     "axis": [
-      -1.0,
+      -0.235,
       0.0,
-      0.0
-     ],
-     "limits": [
-      -628.3185307179587,
-      628.3185307179587
-     ],
-     "parent": "base"
-    },
-    {
-     "child": "left_wheel",
-     "type": "revolute",
-     "pivot": [
-      0.265,
-      -0.215,
-      0.1
-     ],
-     "axis": [
-      -1.0,
-      0.0,
-      0.0
-     ],
-     "limits": [
-      -628.3185307179587,
-      628.3185307179587
-     ],
-     "parent": "base"
-    },
-    {
-     "child": "right_rear_support_wheel",
-     "type": "revolute",
-     "pivot": [
-      -0.181,
-      0.273,
-      0.037
+      0.16
      ],
      "axis": [
       1.0,
@@ -3789,18 +3721,18 @@
       0.0
      ],
      "limits": [
-      -628.3185307179587,
-      628.3185307179587
+      -3.141592653589793,
+      3.141592653589793
      ],
-     "parent": "base"
+     "parent": "mobile_chassis_and_support"
     },
     {
-     "child": "left_rear_support_wheel",
+     "child": "right_drive_wheel",
      "type": "revolute",
      "pivot": [
-      0.181,
-      0.273,
-      0.037
+      0.235,
+      0.0,
+      0.16
      ],
      "axis": [
       1.0,
@@ -3808,132 +3740,37 @@
       0.0
      ],
      "limits": [
-      -628.3185307179587,
-      628.3185307179587
+      -3.141592653589793,
+      3.141592653589793
      ],
-     "parent": "base"
+     "parent": "mobile_chassis_and_support"
     },
     {
-     "child": "link_torso_0",
+     "child": "waist_pitch_motor",
      "type": "revolute",
      "pivot": [
       0.0,
-      0.03,
-      0.2805
-     ],
-     "axis": [
-      0.0,
-      -1.0,
-      0.0
-     ],
-     "limits": [
-      -0.2617993877991494,
-      0.2617993877991494
-     ],
-     "parent": "base"
-    },
-    {
-     "child": "link_torso_1",
-     "type": "revolute",
-     "pivot": [
-      0.0,
-      0.03,
-      0.2805
+      0.015,
+      0.822
      ],
      "axis": [
       1.0,
       0.0,
-      0.0
-     ],
-     "limits": [
-      -0.5235987755982988,
-      1.5707963267948966
-     ],
-     "parent": "link_torso_0"
-    },
-    {
-     "child": "link_torso_2",
-     "type": "revolute",
-     "pivot": [
-      0.0,
-      0.10465,
-      0.622507
-     ],
-     "axis": [
-      1.0,
-      0.0,
-      0.0
-     ],
-     "limits": [
-      -2.6179938779914944,
-      1.5707963267948966
-     ],
-     "parent": "link_torso_1"
-    },
-    {
-     "child": "link_torso_3",
-     "type": "revolute",
-     "pivot": [
-      0.0,
-      0.03,
-      0.964514
-     ],
-     "axis": [
-      1.0,
-      0.0,
-      0.0
-     ],
-     "limits": [
-      -0.7853981633974483,
-      1.5707963267948966
-     ],
-     "parent": "link_torso_2"
-    },
-    {
-     "child": "link_torso_4",
-     "type": "revolute",
-     "pivot": [
-      0.0,
-      0.03,
-      0.964514
-     ],
-     "axis": [
-      0.0,
-      -1.0,
       0.0
      ],
      "limits": [
       -0.5235987755982988,
       0.5235987755982988
      ],
-     "parent": "link_torso_3"
+     "parent": "mobile_chassis_and_support"
     },
     {
-     "child": "link_torso_5",
-     "type": "revolute",
-     "pivot": [
-      0.0,
-      0.018,
-      1.274
-     ],
-     "axis": [
-      0.0,
-      0.0,
-      1.0
-     ],
-     "limits": [
-      -2.356194490192345,
-      2.356194490192345
-     ],
-     "parent": "link_torso_4"
-    },
-    {
-     "child": "upper_chest_cover",
+     "child": "waist_platform",
      "type": "fixed",
      "pivot": [
       0.0,
-      0.018,
-      1.274
+      0.015,
+      0.822
      ],
      "axis": [
       0.0,
@@ -3941,15 +3778,34 @@
       1.0
      ],
      "limits": null,
-     "parent": "link_torso_5"
+     "parent": "waist_pitch_motor"
     },
     {
-     "child": "lower_front_cover",
+     "child": "black_torso",
+     "type": "revolute",
+     "pivot": [
+      0.0,
+      0.012,
+      0.94
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "limits": [
+      -1.3962634015954636,
+      1.3962634015954636
+     ],
+     "parent": "waist_platform"
+    },
+    {
+     "child": "faceted_chest_shell",
      "type": "fixed",
      "pivot": [
       0.0,
-      0.018,
-      1.274
+      0.012,
+      0.94
      ],
      "axis": [
       0.0,
@@ -3957,15 +3813,15 @@
       1.0
      ],
      "limits": null,
-     "parent": "link_torso_5"
+     "parent": "black_torso"
     },
     {
-     "child": "top_mount_and_antennas",
+     "child": "lower_panel_seal",
      "type": "fixed",
      "pivot": [
       0.0,
-      0.018,
-      1.274
+      0.012,
+      0.94
      ],
      "axis": [
       0.0,
@@ -3973,110 +3829,117 @@
       1.0
      ],
      "limits": null,
-     "parent": "link_torso_5"
+     "parent": "black_torso"
     },
     {
-     "child": "link_right_arm_0",
-     "type": "revolute",
+     "child": "lower_chest_panel",
+     "type": "fixed",
      "pivot": [
-      -0.22,
-      0.005,
-      1.3159999999999998
-     ],
-     "axis": [
-      0.9396927356719971,
       0.0,
-      -0.3420199155807495
-     ],
-     "limits": [
-      -3.141592653589793,
-      3.141592653589793
-     ],
-     "parent": "link_torso_5"
-    },
-    {
-     "child": "link_right_arm_1",
-     "type": "revolute",
-     "pivot": [
-      -0.22,
-      0.005,
-      1.3159999999999998
-     ],
-     "axis": [
-      0.0,
-      -1.0,
-      0.0
-     ],
-     "limits": [
-      -3.141592653589793,
-      0.017453292519943295
-     ],
-     "parent": "link_right_arm_0"
-    },
-    {
-     "child": "link_right_arm_2",
-     "type": "revolute",
-     "pivot": [
-      -0.22,
-      0.005,
-      1.3159999999999998
+      0.012,
+      0.94
      ],
      "axis": [
       0.0,
       0.0,
       1.0
      ],
-     "limits": [
-      -3.141592653589793,
-      3.141592653589793
-     ],
-     "parent": "link_right_arm_1"
+     "limits": null,
+     "parent": "black_torso"
     },
     {
-     "child": "link_right_arm_3",
-     "type": "revolute",
+     "child": "chest_lower_seam",
+     "type": "fixed",
      "pivot": [
-      -0.242,
-      -0.026,
-      1.011
+      0.0,
+      0.012,
+      0.94
      ],
      "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "limits": null,
+     "parent": "black_torso"
+    },
+    {
+     "child": "chest_identification_mark",
+     "type": "fixed",
+     "pivot": [
+      0.0,
+      0.012,
+      0.94
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "limits": null,
+     "parent": "black_torso"
+    },
+    {
+     "child": "top_sensor_and_antennas",
+     "type": "fixed",
+     "pivot": [
+      0.0,
+      0.012,
+      0.94
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "limits": null,
+     "parent": "black_torso"
+    },
+    {
+     "child": "left_shoulder",
+     "type": "revolute",
+     "pivot": [
+      -0.205,
+      0.012,
+      1.292
+     ],
+     "axis": [
+      0.0,
       1.0,
-      0.0,
       0.0
+     ],
+     "limits": [
+      -1.6580627893946132,
+      1.6580627893946132
+     ],
+     "parent": "black_torso"
+    },
+    {
+     "child": "left_upper_arm",
+     "type": "revolute",
+     "pivot": [
+      -0.26,
+      0.012,
+      1.188
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
      ],
      "limits": [
       -2.6179938779914944,
-      0.017453292519943295
+      2.6179938779914944
      ],
-     "parent": "link_right_arm_2"
+     "parent": "left_shoulder"
     },
     {
-     "child": "link_right_arm_4",
+     "child": "left_elbow",
      "type": "revolute",
      "pivot": [
-      -0.242,
-      0.005,
-      0.755
-     ],
-     "axis": [
+      -0.26,
       0.0,
-      0.0,
-      1.0
-     ],
-     "limits": [
-      -3.141592653589793,
-      3.141592653589793
-     ],
-     "parent": "link_right_arm_3"
-    },
-    {
-     "child": "link_right_arm_5",
-     "type": "revolute",
-     "pivot": [
-      -0.242,
-      -0.028,
-      0.755
+      0.93
      ],
      "axis": [
       1.0,
@@ -4084,18 +3947,18 @@
       0.0
      ],
      "limits": [
-      -1.5707963267948966,
-      1.9198621771937625
+      -2.2689280275926285,
+      0.5235987755982988
      ],
-     "parent": "link_right_arm_4"
+     "parent": "left_upper_arm"
     },
     {
-     "child": "link_right_arm_6",
+     "child": "left_forearm",
      "type": "revolute",
      "pivot": [
-      -0.242,
-      -0.028,
-      0.755
+      -0.26,
+      0.0,
+      0.89
      ],
      "axis": [
       0.0,
@@ -4103,53 +3966,18 @@
       1.0
      ],
      "limits": [
-      -2.705260340591211,
-      2.705260340591211
+      -2.9670597283903604,
+      2.9670597283903604
      ],
-     "parent": "link_right_arm_5"
+     "parent": "left_elbow"
     },
     {
-     "child": "right_gripper_palm",
-     "type": "fixed",
+     "child": "left_wrist",
+     "type": "revolute",
      "pivot": [
-      -0.242,
-      -0.028,
-      0.755
-     ],
-     "axis": [
-      0.0,
-      0.0,
-      1.0
-     ],
-     "limits": null,
-     "parent": "link_right_arm_6"
-    },
-    {
-     "child": "right_finger_outer",
-     "type": "prismatic",
-     "pivot": [
-      -0.26087500154972076,
-      -0.028999999165534973,
-      0.6245000064373016
-     ],
-     "axis": [
-      -1.0,
-      0.0,
-      0.0
-     ],
-     "limits": [
-      0.0,
-      0.05
-     ],
-     "parent": "right_gripper_palm"
-    },
-    {
-     "child": "right_finger_inner",
-     "type": "prismatic",
-     "pivot": [
-      -0.22312499582767487,
-      -0.028999999165534973,
-      0.6245000064373016
+      -0.26,
+      -0.009,
+      0.747
      ],
      "axis": [
       1.0,
@@ -4157,151 +3985,18 @@
       0.0
      ],
      "limits": [
-      0.0,
-      0.05
+      -1.7453292519943295,
+      1.7453292519943295
      ],
-     "parent": "right_gripper_palm"
-    },
-    {
-     "child": "link_left_arm_0",
-     "type": "revolute",
-     "pivot": [
-      0.22,
-      0.005,
-      1.3159999999999998
-     ],
-     "axis": [
-      0.9396927356719971,
-      0.0,
-      0.3420199155807495
-     ],
-     "limits": [
-      -3.141592653589793,
-      3.141592653589793
-     ],
-     "parent": "link_torso_5"
-    },
-    {
-     "child": "link_left_arm_1",
-     "type": "revolute",
-     "pivot": [
-      0.22,
-      0.005,
-      1.3159999999999998
-     ],
-     "axis": [
-      0.0,
-      -1.0,
-      0.0
-     ],
-     "limits": [
-      -0.017453292519943295,
-      3.141592653589793
-     ],
-     "parent": "link_left_arm_0"
-    },
-    {
-     "child": "link_left_arm_2",
-     "type": "revolute",
-     "pivot": [
-      0.22,
-      0.005,
-      1.3159999999999998
-     ],
-     "axis": [
-      0.0,
-      0.0,
-      1.0
-     ],
-     "limits": [
-      -3.141592653589793,
-      3.141592653589793
-     ],
-     "parent": "link_left_arm_1"
-    },
-    {
-     "child": "link_left_arm_3",
-     "type": "revolute",
-     "pivot": [
-      0.242,
-      -0.026,
-      1.011
-     ],
-     "axis": [
-      1.0,
-      0.0,
-      0.0
-     ],
-     "limits": [
-      -2.6179938779914944,
-      0.017453292519943295
-     ],
-     "parent": "link_left_arm_2"
-    },
-    {
-     "child": "link_left_arm_4",
-     "type": "revolute",
-     "pivot": [
-      0.242,
-      0.005,
-      0.755
-     ],
-     "axis": [
-      0.0,
-      0.0,
-      1.0
-     ],
-     "limits": [
-      -3.141592653589793,
-      3.141592653589793
-     ],
-     "parent": "link_left_arm_3"
-    },
-    {
-     "child": "link_left_arm_5",
-     "type": "revolute",
-     "pivot": [
-      0.242,
-      -0.028,
-      0.755
-     ],
-     "axis": [
-      1.0,
-      0.0,
-      0.0
-     ],
-     "limits": [
-      -1.5707963267948966,
-      1.9198621771937625
-     ],
-     "parent": "link_left_arm_4"
-    },
-    {
-     "child": "link_left_arm_6",
-     "type": "revolute",
-     "pivot": [
-      0.242,
-      -0.028,
-      0.755
-     ],
-     "axis": [
-      0.0,
-      0.0,
-      1.0
-     ],
-     "limits": [
-      -2.705260340591211,
-      2.705260340591211
-     ],
-     "parent": "link_left_arm_5"
+     "parent": "left_forearm"
     },
     {
      "child": "left_gripper_palm",
      "type": "fixed",
      "pivot": [
-      0.242,
-      -0.028,
-      0.755
+      -0.26,
+      -0.009,
+      0.747
      ],
      "axis": [
       0.0,
@@ -4309,15 +4004,15 @@
       1.0
      ],
      "limits": null,
-     "parent": "link_left_arm_6"
+     "parent": "left_wrist"
     },
     {
-     "child": "left_finger_inner",
+     "child": "left_inner_finger",
      "type": "prismatic",
      "pivot": [
-      0.22312499582767487,
-      -0.028999999165534973,
-      0.6245000064373016
+      -0.28794431686401367,
+      -0.044999999925494194,
+      0.5844219624996185
      ],
      "axis": [
       -1.0,
@@ -4326,17 +4021,17 @@
      ],
      "limits": [
       0.0,
-      0.05
+      0.025
      ],
      "parent": "left_gripper_palm"
     },
     {
-     "child": "left_finger_outer",
+     "child": "left_outer_finger",
      "type": "prismatic",
      "pivot": [
-      0.26087500154972076,
-      -0.028999999165534973,
-      0.6245000064373016
+      -0.2320556715130806,
+      -0.044999999925494194,
+      0.5844219624996185
      ],
      "axis": [
       1.0,
@@ -4345,9 +4040,158 @@
      ],
      "limits": [
       0.0,
-      0.05
+      0.025
      ],
      "parent": "left_gripper_palm"
+    },
+    {
+     "child": "right_shoulder",
+     "type": "revolute",
+     "pivot": [
+      0.205,
+      0.012,
+      1.292
+     ],
+     "axis": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "limits": [
+      -1.6580627893946132,
+      1.6580627893946132
+     ],
+     "parent": "black_torso"
+    },
+    {
+     "child": "right_upper_arm",
+     "type": "revolute",
+     "pivot": [
+      0.26,
+      0.012,
+      1.188
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "limits": [
+      -2.6179938779914944,
+      2.6179938779914944
+     ],
+     "parent": "right_shoulder"
+    },
+    {
+     "child": "right_elbow",
+     "type": "revolute",
+     "pivot": [
+      0.26,
+      0.0,
+      0.93
+     ],
+     "axis": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "limits": [
+      -2.2689280275926285,
+      0.5235987755982988
+     ],
+     "parent": "right_upper_arm"
+    },
+    {
+     "child": "right_forearm",
+     "type": "revolute",
+     "pivot": [
+      0.26,
+      0.0,
+      0.89
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "limits": [
+      -2.9670597283903604,
+      2.9670597283903604
+     ],
+     "parent": "right_elbow"
+    },
+    {
+     "child": "right_wrist",
+     "type": "revolute",
+     "pivot": [
+      0.26,
+      -0.009,
+      0.747
+     ],
+     "axis": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "limits": [
+      -1.7453292519943295,
+      1.7453292519943295
+     ],
+     "parent": "right_forearm"
+    },
+    {
+     "child": "right_gripper_palm",
+     "type": "fixed",
+     "pivot": [
+      0.26,
+      -0.009,
+      0.747
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "limits": null,
+     "parent": "right_wrist"
+    },
+    {
+     "child": "right_inner_finger",
+     "type": "prismatic",
+     "pivot": [
+      0.2320556715130806,
+      -0.044999999925494194,
+      0.5844219624996185
+     ],
+     "axis": [
+      -1.0,
+      0.0,
+      0.0
+     ],
+     "limits": [
+      0.0,
+      0.025
+     ],
+     "parent": "right_gripper_palm"
+    },
+    {
+     "child": "right_outer_finger",
+     "type": "prismatic",
+     "pivot": [
+      0.28794431686401367,
+      -0.044999999925494194,
+      0.5844219624996185
+     ],
+     "axis": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "limits": [
+      0.0,
+      0.025
+     ],
+     "parent": "right_gripper_palm"
     }
    ],
    "room": false
@@ -7504,6 +7348,6 @@
   "video_s": 21.0,
   "frames": 210,
   "camera_height_m": 1.65,
-  "glb_mb": 17.7
+  "glb_mb": 16.0
  }
 }
